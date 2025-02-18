@@ -11,8 +11,8 @@
 
 #define application_title  "character animation"
 
-#define application_width  600
-#define application_height 600
+#define application_width  500
+#define application_height 500
 
 /* application  macros  ***********************************/
 #define application_zero(x,y)                { for(uint32_t i=0;i<y;( (uint8_t*)(x) )[i]=0 ,i++); }
@@ -24,7 +24,7 @@
 #define application_scm(X,Y) (strcmp(X,Y)==0)
 /*********************************************************/
 
-/* simplistic array - to streamline convention, also string base*/
+/* simplistic array - for preferred  convention*/
 template <typename T,typename T2 = uint32_t >
 struct _array {
 

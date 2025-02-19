@@ -19,10 +19,7 @@ struct application : public application_flags {
     void onlostdevice();
     void onresetdevice();
 
-    ID3DXFont* m_font;
-
     pascal_object* m_pascal;
-
 
 	/*camera***************/
     _vec3      m_up;

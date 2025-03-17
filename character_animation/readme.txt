@@ -3,6 +3,7 @@
 * installed at [  C:\Program Files\Microsoft DirectX SDK (June 2010)  ]
 
 * the file pascal.dae was exported from blender 2.76
+* the file pascal.blend should be in the bin folder.
 
 * to generate the required pascal._mesh file, use the collada_loader application
 * collada_loader usage .. [ app ] [ pascal.dae ] [ pascal._mesh ]
